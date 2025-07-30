@@ -1,0 +1,36 @@
+/* Custom styles for Task Manager */
+
+.card {
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.task-priority-high {
+    border-left: 4px solid #dc3545;
+}
+
+.task-priority-medium {
+    border-left: 4px solid #ffc107;
+}
+
+.task-priority-low {
+    border-left: 4px solid #6c757d;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
